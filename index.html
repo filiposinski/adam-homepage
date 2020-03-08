@@ -15,7 +15,7 @@
     <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
     <meta property="og:url" content="http://www.filiposinski.com" />
     <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta property="og:image" content="../assets/img/cover.png" />
+    <meta property="og:image" content="assets/img/cover.png" />
 
     <link rel="manifest" href="manifest.json" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -28,36 +28,35 @@
 
 <body>
 
-    <main>
-        <section class="hero">
-            <img src="" class="hero__image" alt="Filip." />
-            <h1 class="hero__title">FILIP OSIŃSKI</h1>
-            <h2 class="hero__subtitle">Architect // Programmer // Coffee lover</h2>
-            <p class="hero__description">An architect by day and a programmer by night. Currently residing in Poznan, Poland. Lover of a good speciality coffee. Fan of Depeche Mode and wargames.</p>
+    <main class="main">
+        <img src="/assets/img/hero.png" class="image" alt="Author." />
+        <section class="content">
+            <section class="hero">
+                <h1 class="hero__title">FILIP OSIŃSKI</h1>
+                <h2 class="hero__subtitle">Architect // Programmer // Coffee lover</h2>
+                <p class="hero__description">An architect by day and a programmer by night. Currently residing in Poznan, Poland. Lover of a good speciality coffee. Fan of Depeche Mode.</p>
+            </section>
+
+            <section class="skills">
+                <h3 class="skills__title"></h3>
+                <h4 class="skills-list__title"></h4>
+                <ul class="skills-list__list">
+
+                </ul>
+            </section>
+            <section class="portfolio">
+
+            </section>
+            <section class="contact">
+                <a class="contact__mail" href="mailto:kontakt@filiposinski.com">kontakt@filiposinski.com</a>
+            </section>
+            <section class="media">
+                <a class="media__link" href="https://www.instagram.com/_spacehiker/" alt="Instagram." target="_blank">instagram</a>
+                <a class="media__link" href="https://github.com/spacehiker" alt="Github." target="_blank">github</a>
+                <a class="media__link" href="" alt="Behance." target="_blank">behance</a>
+            </section>
         </section>
 
-        <section class="skills">
-            <h3 class="skills__title"></h3>
-            <h4 class="skills-list__title"></h4>
-            <ul class="skills-list__list">
-
-            </ul>
-        </section>
-        <section class="portfolio">
-
-        </section>
-        <section class="contact">
-            <a class="contact__mail" href="mailto:kontakt@filiposinski.com">kontakt@filiposinski.com</a>
-        </section>
-        <section class="media">
-            <a class="media__link" href="https://www.instagram.com/_spacehiker/" alt="instagram" target="_blank">instagram</a>
-            <a class="media__link" href="https://github.com/spacehiker" alt="github" target="_blank">github</a>
-            <a class="media__link" href="" alt="behance" target="_blank">behance</a>
-        </section>
-
-        <footer class="footer">
-            <p>Copyright © spacehiker 2020, verion 6.0</p>
-        </footer>
     </main>
 
     <script src="js/main.js"></script>
