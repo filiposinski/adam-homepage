@@ -450,7 +450,7 @@ body {
       flex-wrap: wrap; }
 
 .image {
-  width: 50%;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -464,7 +464,7 @@ body {
     background-position: center; }
 
 .content {
-  width: 50%;
+  width: 60%;
   padding: 50px; }
 
 h3 {
