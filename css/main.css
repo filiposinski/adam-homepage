@@ -312,36 +312,41 @@ template {
   margin: 0 auto;
   display: block; }
   .hero__title {
-    font-family: Lato;
     font-style: normal;
     font-weight: 400;
     font-size: 30px; }
   .hero__subtitle {
-    font-family: Lato;
     font-style: normal;
     font-weight: 400;
     font-size: 60px; }
   .hero__description {
-    font-family: Lato;
-    font-style: light;
-    font-weight: 200;
-    font-size: 20px; }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px; }
 
 .skills {
   margin: 0 auto;
   display: block; }
+  .skills__title {
+    font-size: 36px; }
 
 .skills-list {
   margin: 0 auto;
   display: block; }
-  .skills-list__item {
-    color: black;
-    background-color: yellow;
+  .skills-list__title {
+    font-size: 20px; }
+  .skills-list__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 10px;
-    padding: 5px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style-type: none; }
+  .skills-list__item {
+    color: black;
+    background-color: yellow;
+    margin: 5px;
+    padding: 8px;
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
@@ -383,5 +388,8 @@ body {
 .content {
   width: 50%;
   padding: 50px; }
+
+h3 {
+  font-size: 36px; }
 
 /*# sourceMappingURL=main.css.map */
