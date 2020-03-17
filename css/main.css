@@ -341,9 +341,10 @@ template {
         flex-wrap: wrap;
     list-style-type: none; }
   .skills-list__item {
-    color: black;
-    background-color: #F9C802;
+    color: #FFF;
     margin: 5px;
+    border: 2px;
+    border-style: solid;
     padding: 8px;
     font-family: Lato;
     font-style: normal;
@@ -366,9 +367,9 @@ template {
 
 .project {
   background: #000;
-  border: 1px;
-  border-style: dashed;
-  border-color: #F9C802;
+  border: 2px;
+  border-style: solid;
+  border-color: #FFF;
   padding: 0;
   margin: 0; }
   .project__title {
@@ -378,7 +379,7 @@ template {
     font-style: normal;
     font-size: 16px; }
   .project__footer {
-    background: #F9C802;
+    background: #FFF;
     padding: 10px;
     text-align: right; }
   .project__link {
@@ -450,13 +451,12 @@ body {
       flex-wrap: wrap; }
 
 .image {
-  width: 40%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  background-color: #F9C802; }
+  display: flex; }
   .image__author {
-    background-image: url(../assets/img/hero.png);
+    background-image: url(../assets/img/hero02.png);
     width: 100%;
     float: right;
     background-attachment: fixed;
@@ -464,7 +464,7 @@ body {
     background-position: center; }
 
 .content {
-  width: 60%;
+  width: 50%;
   padding: 50px; }
 
 h3 {
