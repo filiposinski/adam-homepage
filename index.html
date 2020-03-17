@@ -29,7 +29,14 @@
 <body>
 
     <main class="main">
-        <img src="/assets/img/hero.png" class="image" alt="Author." />
+        <section class="image">
+            <div class="image__author"></div>
+
+            <!-- <img src="/assets/img/hero.png" class="image__author" alt="Author." />
+            -->
+
+        </section>
+
         <section class="content">
             <section class="hero">
                 <h1 class="hero__title">FILIP OSIŃSKI</h1>
@@ -91,7 +98,15 @@
                             <h4 class="project__title">Valencia</h4>
                             <p class="project__description">Refugee center</p>
                             <div class="project__footer">
-                                <a class="project__link" href="#" title="Behance">Project on behance</a>
+                                <a class="project__link project__link--behance" href="#" title="Behance">BEHANCE</a>
+                            </div>
+                        </li>
+                        <li class="project">
+                            <img class="project__logo" src="#" alt="">
+                            <h4 class="project__title">Valencia</h4>
+                            <p class="project__description">Refugee center</p>
+                            <div class="project__footer">
+                                <a class="project__link project__link--behance" href="#" title="Behance">BEHANCE</a>
                             </div>
                         </li>
                     </ul>
@@ -104,8 +119,17 @@
                             <h4 class="project__title">HydrAPP</h4>
                             <p class="project__description">PWA to count glass of water</p>
                             <div class="project__footer">
-                                <a class="project__link" href="#" title="Demo: HydrAPP">DEMO</a>
-                                <a class="project__link" href="#" title="Source code: HydrAPP">GitHub</a>
+                                <a class="project__link project__link--demo" href="#" title="Demo: HydrAPP">DEMO</a>
+                                <a class="project__link project__link--code" href="#" title="Source code: HydrAPP">GitHub</a>
+                            </div>
+                        </li>
+                        <li class="project">
+                            <img class="project__logo" src="#" alt="">
+                            <h4 class="project__title">HydrAPP</h4>
+                            <p class="project__description">PWA to count glass of water</p>
+                            <div class="project__footer">
+                                <a class="project__link project__link--demo" href="#" title="Demo: HydrAPP">DEMO</a>
+                                <a class="project__link project__link--code" href="#" title="Source code: HydrAPP">GitHub</a>
                             </div>
                         </li>
                     </ul>
@@ -113,12 +137,13 @@
 
             </section>
             <section class="contact">
+                <h3 class="contact__title">CONTACT</h3>
                 <a class="contact__mail" href="mailto:kontakt@filiposinski.com">kontakt@filiposinski.com</a>
             </section>
             <section class="media">
-                <a class="media__link" href="https://www.instagram.com/_spacehiker/" alt="Instagram." target="_blank">instagram</a>
-                <a class="media__link" href="https://github.com/spacehiker" alt="Github." target="_blank">github</a>
-                <a class="media__link" href="" alt="Behance." target="_blank">behance</a>
+                <a class="media__link media__link--ig" href="https://www.instagram.com/_spacehiker/" alt="Instagram." target="_blank">instagram</a>
+                <a class="media__link media__link--github" href="https://github.com/spacehiker" alt="Github." target="_blank">github</a>
+                <a class="media__link media__link--behance" href="" alt="Behance." target="_blank">behance</a>
             </section>
         </section>
     </main>

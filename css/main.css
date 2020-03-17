@@ -327,8 +327,6 @@ template {
 .skills {
   margin: 0 auto;
   display: block; }
-  .skills__title {
-    font-size: 36px; }
 
 .skills-list {
   margin: 0 auto;
@@ -344,13 +342,86 @@ template {
     list-style-type: none; }
   .skills-list__item {
     color: black;
-    background-color: yellow;
+    background-color: #F9C802;
     margin: 5px;
     padding: 8px;
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
     font-size: 16px; }
+
+.portfolio-list__list {
+  font-size: 16px;
+  list-style-type: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 1.5rem;
+     -moz-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  margin: 0;
+  padding: 0; }
+
+.project {
+  background: #000;
+  border: 1px;
+  border-style: dashed;
+  border-color: #F9C802;
+  padding: 0;
+  margin: 0; }
+  .project__title {
+    font-style: bold;
+    font-size: 20px; }
+  .project__description {
+    font-style: normal;
+    font-size: 16px; }
+  .project__footer {
+    background: #F9C802;
+    padding: 10px;
+    text-align: right; }
+  .project__link {
+    color: #000;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 12px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .project__link + .project__link {
+      margin-left: 8px;
+      padding-left: 8px; }
+      .project__link + .project__link::after {
+        content: ' ';
+        width: 1px;
+        height: 24px;
+        background: #302e29;
+        display: block;
+        position: absolute;
+        pointer-events: none; }
+    .project__link::before {
+      content: '';
+      display: block;
+      margin-right: 8px;
+      width: 24px;
+      height: 24px;
+      background: url("../assets/img/demo.svg") center center no-repeat; }
+    .project__link--code::before {
+      background: url("../assets/img/code.svg") center center no-repeat; }
+
+.media__link {
+  color: #FFF;
+  text-decoration: none; }
+
+.contact {
+  margin: 100px 0 100px 0; }
+  .contact__mail {
+    color: #FFF;
+    text-decoration: none; }
 
 html {
   -webkit-box-sizing: border-box;
@@ -380,10 +451,17 @@ body {
 
 .image {
   width: 50%;
-  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  background-color: #F9C802; }
+  .image__author {
+    background-image: url(../assets/img/hero.png);
+    width: 100%;
+    float: right;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; }
 
 .content {
   width: 50%;
