@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 h1 {
     color: tomato;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+h2,
+h3 {
+    color: tomato;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
 }
 
 p {
     color: #586DFF;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 body {
     background: rgb(169, 200, 204);
 }
+
+font-family: 'Anton',
+sans-serif;
