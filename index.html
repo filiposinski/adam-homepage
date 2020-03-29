@@ -15,40 +15,68 @@
 
 <body>
     <!--Tutaj wrzucamy treść strony-->
-    <header>
+    <header class="navigation">
+        <!--nagłówek-->
         <h1>STRONA DOMOWA ADAMA</h1>
-        <nav>
-            <a href="podstrona.html">PODSTRONA</a>
+        <nav class="menu">
+
+            <a href="index.html">STRONA GŁÓWNA</a></li>
+            <a href="podstrona.html">DZIENNIK</a></li>
+
         </nav>
     </header>
-    <main>
-        <section>
+    <main id="top" class="main">
+
+        <!--Główna część strony-->
+
+        <section class="hero">
+
             <h2>O AUTORZE</h2>
-            <p>Nazywam się <b>Adam Kowalski</b>, mam 20 lat. Pochodzę z <u>Podlasia</u>. <s>Lubię placki!</s></p>
-            <a href="http://www.google.com" target="blank">Najlepsza wyszukiwarka!</a>
+            <img class="hero__img" src="hero.jpeg" alt="Autor strony." />
+            <p>Nazywam się <strong>Adam Kowalski</strong>, mam 20 lat! Pochodzę z Poznania i już od najmłodszych lat interesuję się programowaniem oraz frontendem!</p>
+            <ul>
+                <h3>SEKCJE:</h3>
+                <li><a href="#programowanie">PROGRAMOWANIE</a></li>
+                <li><a href="#zainteresowania">ZAINTERESOWANIA</a></li>
+            </ul>
 
 
-            <figure>
-                <img src="adam.jpg" alt="Autor strony." width="200px">
-                <figcaption>Autor.</figcaption>
-            </figure>
+
 
 
 
 
         </section>
-        <section>
-            <h3>LOREM IPSUM</h3>
-            <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Quisque dui ipsum, laoreet quis erat non, tincidunt venenatis mauris. Phasellus quis erat posuere, eleifend nulla vitae, vulputate mi. Proin sollicitudin tincidunt lectus, at
-                vulputate ex cursus sit amet. Proin vel metus ut libero elementum dignissim at id risus. Nunc eu dictum ipsum. In hac habitasse platea dictumst. Nullam tempor convallis ex et mollis. In hac habitasse platea dictumst. Morbi eu porttitor
-                massa. Nunc elementum placerat augue, quis feugiat ante elementum non. In hac habitasse platea dictumst. Nulla facilisi.</p>
-            <h3>NULLA FACILISI</h3>
-            <p><strong>Nulla facilisi.</strong> Sed quis tellus nunc. Fusce et tempus est. Nullam pretium, metus in sollicitudin sodales, urna dolor posuere leo, sed varius urna dolor quis nisi. Mauris tellus lorem, lobortis in eros ut, malesuada pretium
-                arcu. Pellentesque nec dui pellentesque tortor pretium porta. Vestibulum ultricies porta sagittis. Morbi nisi massa, venenatis sed est viverra, volutpat sagittis odio. Etiam euismod purus neque, fermentum sollicitudin est efficitur id.
-                Integer nulla justo, volutpat sit amet vestibulum luctus, consectetur vitae odio. In hac habitasse platea dictumst. Mauris at leo eget turpis vestibulum viverra.</p>
+        <section class="tresc">
+            <section>
+                <h2 id="programowanie">PROGRAMOWANIE</h2>
+                <p>Na początku interesowałem się tylko programowaniem. Uczyłem się języków takich jak <strong>C#, Python oraz Java</strong>.
+                    <br>Jednak po jakimś czasie zaczacząłem interesować się frontendem. Bardzo spodobały mi się możliwości jakie daje współcześnie <strong>CSS</strong> oraz przede wszystkim <strong>JavaScript!</strong> Zacząłem również niedawno używać
+                    biblioteki
+                    <strong>React</strong> aby moje strony były jeszcze lepsze!
+                </p>
+                <h2 id="zainteresowania">ZAINTERESOWANIA</h2>
+                <p>Oprócz programowania oraz pisania stron lubię też inne rzeczy. W wolnej chwili jeżdżę na rowerze oraz gram w <b>tenisa ziemnego</b>. Lubię też grać na konsoli z przyjaciółmi w wolnych chwilach w najnowsze hity. Jeżdżę też na <b>letnie festiwale muzyczne</b>,
+                    gdzie można poznać wiele fantastycznych osób oraz posłuchać największe gwiazdy muzyki.</p>
+            </section>
+            <section>
+                <h2>LOREM IPSUM</h2>
+                <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Quisque dui ipsum, laoreet quis erat non, tincidunt venenatis mauris. Phasellus quis erat posuere, eleifend nulla vitae, vulputate mi. Proin sollicitudin tincidunt lectus,
+                    at vulputate ex cursus sit amet. Proin vel metus ut libero elementum dignissim at id risus. Nunc eu dictum ipsum. In hac habitasse platea dictumst. Nullam tempor convallis ex et mollis. In hac habitasse platea dictumst. Morbi eu porttitor
+                    massa. Nunc elementum placerat augue, quis feugiat ante elementum non. In hac habitasse platea dictumst. Nulla facilisi.</p>
+            </section>
+            <section>
+                <h2>NULLAM MALESUADA</h2>
+                <p><b>Nullam malesuada</b>, ligula et luctus scelerisque, eros tellus tristique arcu, ut ultrices nisi nisi quis massa. Maecenas porttitor vehicula vulputate. Vivamus velit eros, rutrum nec vulputate at, suscipit eget sem. Donec felis urna,
+                    malesuada a accumsan quis, placerat sit amet lacus. Nunc nec fermentum mi, ut tempus nisi. Vivamus consequat dui sed tellus elementum ultricies. Praesent nibh turpis, auctor sit amet rutrum eget, porta quis quam.</p>
+            </section>
         </section>
     </main>
-    <footer>Autor strony: Adam Kowalski 2020</footer>
+    <footer>
+
+        <a class="top" href="#top">UP</a>
+        <p>Autor strony: Adam Kowalski 2020</p>
+    </footer>
 </body>
 
 </html>

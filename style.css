@@ -1,26 +1,89 @@
-@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 h1 {
-    color: tomato;
-    font-family: 'Anton', sans-serif;
-    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 0 0 0 30px;
+    margin: 10px 0;
 }
 
-h2,
-h3 {
-    color: tomato;
-    font-family: 'Anton', sans-serif;
+h2 {
+    color: #FF7517;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
 }
 
+h3 {
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
 p {
-    color: #586DFF;
-    font-family: 'Fjalla One', sans-serif;
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    text-align: justify;
 }
 
 body {
-    background: rgb(169, 200, 204);
+    background: white;
+    margin: 0;
+    padding: 0;
 }
 
-font-family: 'Anton',
-sans-serif;
+li {
+    list-style: none;
+}
+
+a {
+    color: #F59F16;
+    font-size: 15px;
+}
+
+.main {
+    width: 100%;
+    max-width: 600px;
+    padding: 150px 0 0 0;
+    margin: 0 auto;
+}
+
+.hero {}
+
+.hero__img {
+    width: 200px;
+    margin: 20px;
+    display: block;
+    float: left;
+}
+
+.navigation {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background: #E84420;
+    padding: 10px;
+    box-shadow: 0px 0px 20px 0px gray;
+}
+
+.menu {
+    margin: 0;
+    padding: 0 0 10px 30px;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    background: #FF7517;
+    text-decoration: none;
+    color: white;
+}
+
+.tresc {
+    clear: both;
+}
