@@ -342,6 +342,7 @@ template {
     list-style-type: none; }
   .skills-list__item {
     color: #FFF;
+    cursor: pointer;
     margin: 5px;
     border: 2px;
     border-style: solid;
@@ -349,7 +350,13 @@ template {
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px; }
+    font-size: 16px;
+    -webkit-transition: background .5s linear;
+    -o-transition: background .5s linear;
+    transition: background .5s linear; }
+    .skills-list__item:hover {
+      background: orange;
+      color: black; }
 
 .portfolio-list__list {
   font-size: 16px;
