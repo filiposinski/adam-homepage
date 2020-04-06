@@ -15,63 +15,85 @@
 
 <body>
     <!--Tutaj wrzucamy treść strony-->
-    <header class="navigation">
-        <!--nagłówek-->
-        <h1>STRONA DOMOWA ADAMA</h1>
-        <nav class="menu">
-
-            <a href="index.html">STRONA GŁÓWNA</a></li>
-            <a href="podstrona.html">DZIENNIK</a></li>
-
+    <header class="head">
+        <h1 class="head__title">STRONA DOMOWA ADAMA</h1>
+        <nav class="head__menu">
+            <a class="head__menu--item" href="dziennik.html" target="_blank">DZIENNIK</a>
+            <a class="head__menu--item" href="podstrona.html">PODSTRONA</a>
+            <a class="head__menu--item" href="#programowanie">PROGRAMOWANIE</a>
+            <a class="head__menu--item" href="#zainteresowania">ZAINTERESOWANIA</a>
         </nav>
     </header>
     <main id="top" class="main">
-
-        <!--Główna część strony-->
-
         <section class="hero">
-
-            <h2>O AUTORZE</h2>
+            <h2 class="hero__title">O AUTORZE</h2>
             <img class="hero__img" src="hero.jpeg" alt="Autor strony." />
-            <p>Nazywam się <strong>Adam Kowalski</strong>, mam 20 lat! Pochodzę z Poznania i już od najmłodszych lat interesuję się programowaniem oraz frontendem!</p>
-            <ul>
-                <h3>SEKCJE:</h3>
-                <li><a href="#programowanie">PROGRAMOWANIE</a></li>
-                <li><a href="#zainteresowania">ZAINTERESOWANIA</a></li>
-            </ul>
+            <p class="hero__text">Nazywam się <strong>Adam Kowalski</strong>, mam 20 lat! Pochodzę z Poznania i już od najmłodszych lat interesuję się programowaniem oraz frontendem!</p>
+
 
         </section>
-        <section class="tresc">
-            <section>
-                <h2 id="programowanie">PROGRAMOWANIE</h2>
-                <p>Na początku interesowałem się tylko programowaniem. Uczyłem się języków takich jak <strong>C#, Python oraz Java</strong>.
-                    <br>Jednak po jakimś czasie zaczacząłem interesować się frontendem. Bardzo spodobały mi się możliwości jakie daje współcześnie <strong>CSS</strong> oraz przede wszystkim <strong>JavaScript!</strong> Zacząłem również niedawno używać
-                    biblioteki
-                    <strong>React</strong> aby moje strony były jeszcze lepsze!
+        <section class="content">
+            <h2 class="content__title">LOREM IPSUM</h2>
+            <p class="content__text"><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Quisque dui ipsum, laoreet quis erat non, tincidunt venenatis mauris. Phasellus quis erat posuere, eleifend nulla vitae, vulputate mi. Proin sollicitudin tincidunt lectus, at
+                vulputate ex cursus sit amet. Proin vel metus ut libero elementum dignissim at id risus. Nunc eu dictum ipsum. In hac habitasse platea dictumst. Nullam tempor convallis ex et mollis. In hac habitasse platea dictumst. Morbi eu porttitor
+                massa. Nunc elementum placerat augue, quis feugiat ante elementum non. In hac habitasse platea dictumst. Nulla facilisi.</p>
+            <h2 class="content__title">NULLA FACILISI</h2>
+            <p class="content__text"><strong>Nulla facilisi.</strong> Sed quis tellus nunc. Fusce et tempus est. Nullam pretium, metus in sollicitudin sodales, urna dolor posuere leo, sed varius urna dolor quis nisi. Mauris tellus lorem, lobortis in eros ut, malesuada pretium
+                arcu. Pellentesque nec dui pellentesque tortor pretium porta. Vestibulum ultricies porta sagittis. Morbi nisi massa, venenatis sed est viverra, volutpat sagittis odio. Etiam euismod purus neque, fermentum sollicitudin est efficitur id.
+                Integer nulla justo, volutpat sit amet vestibulum luctus, consectetur vitae odio. In hac habitasse platea dictumst. Mauris at leo eget turpis vestibulum viverra.</p>
+            <h2 id="programowanie" class="content__title">PROGRAMOWANIE</h2>
+            <p class="content__text">Na początku interesowałem się tylko programowaniem. Uczyłem się języków takich jak <strong>C#, Python oraz Java</strong>.
+                <br>Jednak po jakimś czasie zaczacząłem interesować się frontendem. Bardzo spodobały mi się możliwości jakie daje współcześnie <strong>CSS</strong> oraz przede wszystkim <strong>JavaScript!</strong> Zacząłem również niedawno używać biblioteki
+                <strong>React</strong> aby moje strony były jeszcze lepsze!
+            </p>
+            <h2 id="zainteresowania" class="content__title">ZAINTERESOWANIA</h2>
+            <p class="content__text">Oprócz programowania oraz pisania stron lubię też inne rzeczy. W wolnej chwili jeżdżę na rowerze oraz gram w <b>tenisa ziemnego</b>. Lubię też grać na konsoli z przyjaciółmi w wolnych chwilach w najnowsze hity. Jeżdżę też na <b>letnie festiwale muzyczne</b>,
+                gdzie można poznać wiele fantastycznych osób oraz posłuchać największe gwiazdy muzyki.</p>
+
+            <h2 class="content__title">LOREM IPSUM</h2>
+            <p class="content__text"><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Quisque dui ipsum, laoreet quis erat non, tincidunt venenatis mauris. Phasellus quis erat posuere, eleifend nulla vitae, vulputate mi. Proin sollicitudin tincidunt lectus, at
+                vulputate ex cursus sit amet. Proin vel metus ut libero elementum dignissim at id risus. Nunc eu dictum ipsum. In hac habitasse platea dictumst. Nullam tempor convallis ex et mollis. In hac habitasse platea dictumst. Morbi eu porttitor
+                massa. Nunc elementum placerat augue, quis feugiat ante elementum non. In hac habitasse platea dictumst. Nulla facilisi.</p>
+            <h2 class="content__title">NULLA FACILISI</h2>
+            <p class="content__text"><strong>Nulla facilisi.</strong> Sed quis tellus nunc. Fusce et tempus est. Nullam pretium, metus in sollicitudin sodales, urna dolor posuere leo, sed varius urna dolor quis nisi. Mauris tellus lorem, lobortis in eros ut, malesuada pretium
+                arcu. Pellentesque nec dui pellentesque tortor pretium porta. Vestibulum ultricies porta sagittis. Morbi nisi massa, venenatis sed est viverra, volutpat sagittis odio. Etiam euismod purus neque, fermentum sollicitudin est efficitur id.
+                Integer nulla justo, volutpat sit amet vestibulum luctus, consectetur vitae odio. In hac habitasse platea dictumst. Mauris at leo eget turpis vestibulum viverra.</p>
+            <h2 class="content__title">LOREM IPSUM</h2>
+            <p class="content__text"><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Quisque dui ipsum, laoreet quis erat non, tincidunt venenatis mauris. Phasellus quis erat posuere, eleifend nulla vitae, vulputate mi. Proin sollicitudin tincidunt lectus, at
+                vulputate ex cursus sit amet. Proin vel metus ut libero elementum dignissim at id risus. Nunc eu dictum ipsum. In hac habitasse platea dictumst. Nullam tempor convallis ex et mollis. In hac habitasse platea dictumst. Morbi eu porttitor
+                massa. Nunc elementum placerat augue, quis feugiat ante elementum non. In hac habitasse platea dictumst. Nulla facilisi.</p>
+            <h2 class="content__title">NULLA FACILISI</h2>
+            <p class="content__text"><strong>Nulla facilisi.</strong> Sed quis tellus nunc. Fusce et tempus est. Nullam pretium, metus in sollicitudin sodales, urna dolor posuere leo, sed varius urna dolor quis nisi. Mauris tellus lorem, lobortis in eros ut, malesuada pretium
+                arcu. Pellentesque nec dui pellentesque tortor pretium porta. Vestibulum ultricies porta sagittis. Morbi nisi massa, venenatis sed est viverra, volutpat sagittis odio. Etiam euismod purus neque, fermentum sollicitudin est efficitur id.
+                Integer nulla justo, volutpat sit amet vestibulum luctus, consectetur vitae odio. In hac habitasse platea dictumst. Mauris at leo eget turpis vestibulum viverra.</p>
+        </section>
+        <section class="contact">
+            <h2 class="contact__title">FORMULARZ KONTAKTOWY</h2>
+            <form class="contact-form" action="#">
+                <p class="contact-form__item">
+                    <label for="name">Twoje imię:</label>
+                    <input type="text" placeholder="Adam Kowalski" name="name" id="name">
                 </p>
-                <h2 id="zainteresowania">ZAINTERESOWANIA</h2>
-                <p>Oprócz programowania oraz pisania stron lubię też inne rzeczy. W wolnej chwili jeżdżę na rowerze oraz gram w <b>tenisa ziemnego</b>. Lubię też grać na konsoli z przyjaciółmi w wolnych chwilach w najnowsze hity. Jeżdżę też na <b>letnie festiwale muzyczne</b>,
-                    gdzie można poznać wiele fantastycznych osób oraz posłuchać największe gwiazdy muzyki.</p>
-            </section>
-            <section>
-                <h2>LOREM IPSUM</h2>
-                <p><b>Lorem ipsum</b> dolor sit amet, consectetur adipiscing elit. Quisque dui ipsum, laoreet quis erat non, tincidunt venenatis mauris. Phasellus quis erat posuere, eleifend nulla vitae, vulputate mi. Proin sollicitudin tincidunt lectus,
-                    at vulputate ex cursus sit amet. Proin vel metus ut libero elementum dignissim at id risus. Nunc eu dictum ipsum. In hac habitasse platea dictumst. Nullam tempor convallis ex et mollis. In hac habitasse platea dictumst. Morbi eu porttitor
-                    massa. Nunc elementum placerat augue, quis feugiat ante elementum non. In hac habitasse platea dictumst. Nulla facilisi.</p>
-            </section>
-            <section>
-                <h2>NULLAM MALESUADA</h2>
-                <p><b>Nullam malesuada</b>, ligula et luctus scelerisque, eros tellus tristique arcu, ut ultrices nisi nisi quis massa. Maecenas porttitor vehicula vulputate. Vivamus velit eros, rutrum nec vulputate at, suscipit eget sem. Donec felis urna,
-                    malesuada a accumsan quis, placerat sit amet lacus. Nunc nec fermentum mi, ut tempus nisi. Vivamus consequat dui sed tellus elementum ultricies. Praesent nibh turpis, auctor sit amet rutrum eget, porta quis quam.</p>
-            </section>
-        </section>
-    </main>
-    <footer>
 
-        <a class="top" href="#top">UP</a>
-        <p>Autor strony: Adam Kowalski 2020</p>
+                <p class="contact-form__item">
+                    <label for="mail">Twój e-mail:</label>
+                    <input type="email" placeholder="example@mail.pl" mail="mail" id="mail">
+                </p>
+                <p class="contact-form__item">
+                    <label for="textarea">Twoja wiadomość:</label><br>
+                    <textarea class="contact-form__textarea" type="textarea" text="message" id="textarea"></textarea>
+                </p>
+
+                <button class="contact__button">KASUJ</button>
+                <input class="contact__button" type="submit" value="WYŚLIJ">
+            </form>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <a class="footer__top" href="#top">UP</a>
+        <p class="footer__text">Autor strony: Adam Kowalski 2020</p>
     </footer>
-    <script src="main.js"></script>
 </body>
 
 </html>
