@@ -3,6 +3,7 @@
 ## What this repository is:
 
 Hello! 😉
+
 This is a page made to train the skills.
 
 Homepage of the fictional character, Adam.
