@@ -4,7 +4,7 @@
 
 Hello! 😉
 
-This is a page made to train the skills.
+This is a page made just to train the skills.
 
 Homepage of the fictional character, Adam.
 
