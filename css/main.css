@@ -468,7 +468,7 @@ body {
     float: right;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center; }
+    background-position: center center; }
 
 .content {
   width: 50%;
